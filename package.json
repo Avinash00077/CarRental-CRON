@@ -1,0 +1,25 @@
+{
+  "name": "carrental-cron",
+  "version": "1.0.0",
+  "description": "CarRental-CRON_JOBS",
+  "homepage": "https://github.com/Avinash00077/CarRental-CRON#readme",
+  "license": "ISC",
+  "author": "Avinash Reddy",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "local": "nodemon server.js"
+  },
+  "dependencies": {
+    "moment": "^2.30.1",
+    "mysql2": "^3.13.0",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.10.0",
+    "nodemon": "^3.1.9",
+    "pino": "^9.6.0",
+    "prettier": "^3.5.3",
+    "properties-reader": "^2.3.0",
+    "sequelize": "^6.37.6"
+  }
+}
