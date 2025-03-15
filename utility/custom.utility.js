@@ -14,10 +14,10 @@ const formatDateTime = (date, time) => {
     return istTime;
   };
 
-const setTimeZone = async (req, res, next) => {
+const setTimeZone = async () => {
   
   await mysql.query("SET time_zone = '+05:30';"); // Enforces IST per session
-  next();
+  return true
 };
 
 
