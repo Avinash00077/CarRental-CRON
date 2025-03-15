@@ -8,8 +8,4 @@ cron.schedule('0 0 * * *', async () => {
     logger.info("Expired bookings job executed successfully");
 });
 
-cron.schedule('* * * * * *', () => {
-    logger.info("Expired bookings job executed successfully (Every Second)");
-});
-
 logger.info('cronjob pod is started')
