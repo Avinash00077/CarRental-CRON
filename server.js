@@ -7,3 +7,5 @@ cron.schedule('0 0 * * *', async () => {
     await ExpiredBookingsService();  // ✅ Call function inside callback
     logger.info("Expired bookings job executed successfully");
 });
+
+logger.info('cronjob pod is started')
